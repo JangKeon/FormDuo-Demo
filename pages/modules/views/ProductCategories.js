@@ -55,53 +55,55 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
   },
 }));
 
+
 const images = [
   {
-    url: 'https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=400',
-    title: '해양',
+    url: '/images/survey001.jpg',
+    title: '설문 001',
     width: '33.3%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1531299204812-e6d44d9a185c?auto=format&fit=crop&w=400',
-    title: '휴식',
+    url: '/images/survey002.jpg',
+    title: '설문 002',
+    width: '33.3%',
+  },
+  {
+    url: '/images/survey004.jpg',
+    title: '설문 003',
     width: '33.3%',
   },
   {
     url: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400',
-    title: '운동',
+    title: '설문 004',
     width: '33.3%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1453747063559-36695c8771bd?auto=format&fit=crop&w=400',
-    title: '여행',
-    width: '33.3%',
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1523309996740-d5315f9cc28b?auto=format&fit=crop&w=400',
-    title: '요리',
+    url: '/images/survey005.jpg',
+    title: '설문 005',
     width: '33.3%',
   },
   {
     url: 'https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=400',
-    title: '쇼핑',
+    title: '설문 006',
     width: '33.3%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1506941433945-99a2aa4bd50a?auto=format&fit=crop&w=400',
-    title: '조경',
+    url: '/images/survey007.jpg',
+    title: '설문 007',
     width: '33.3%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1533727937480-da3a97967e95?auto=format&fit=crop&w=400',
-    title: 'Fitness',
+    url: '/images/survey008.jpg',
+    title: '설문 008',
     width: '33.3%',
   },
   {
     url: 'https://images.unsplash.com/photo-1518136247453-74e7b5265980?auto=format&fit=crop&w=400',
-    title: '독서',
+    title: '설문 009',
     width: '33.3%',
   },
 ];
+
 
 export default function ProductCategories() {
   const router = useRouter();

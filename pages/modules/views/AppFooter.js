@@ -33,12 +33,12 @@ const iconStyle = {
 
 const LANGUAGES = [
   {
-    code: 'en-US',
-    name: 'English',
-  },
-  {
     code: 'kr-KR',
     name: '한국어',
+  },
+  {
+    code: 'en-US',
+    name: 'English',
   },
 ];
 

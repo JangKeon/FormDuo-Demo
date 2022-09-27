@@ -46,7 +46,7 @@ function AppAppBar() {
               variant="h6"
               underline="none"
               color="white"
-              href="/Home/"
+              href="/Survey_List"
               sx={{ fontSize: 20, paddingLeft: 10}}
             >
               {'설문 목록'}
@@ -56,7 +56,7 @@ function AppAppBar() {
               variant="h6"
               underline="none"
               color="white"
-              href="/Home"
+              href="/Survey_Making"
               sx={{ fontSize: 20, paddingLeft: 10}}
             >
               {'설문 제작'}
@@ -66,7 +66,7 @@ function AppAppBar() {
               variant="h6"
               underline="none"
               color="white"
-              href="/Home"
+              href="/Survey_Analyze"
               sx={{ fontSize: 20, paddingLeft: 10}}
             >
               {'설문 분석'}
@@ -76,7 +76,7 @@ function AppAppBar() {
               variant="h6"
               underline="none"
               color="white"
-              href="/Home"
+              href="/FAQ"
               sx={{ fontSize: 20, paddingLeft: 10}}
             >
               {'FAQ'}
@@ -86,7 +86,7 @@ function AppAppBar() {
               variant="h6"
               underline="none"
               color="white"
-              href="/Home"
+              href="/Announcement_Board"
               sx={{ fontSize: 20, paddingLeft: 10}}
             >
               {'공지사항'}

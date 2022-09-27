@@ -1,11 +1,10 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
+import { useRouter } from 'next/router'
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
-import Typography from '../components/Typography';
+import Typography from './modules/components/Typography';
 
-function Survey_Type_Page() {
-  
+const Survey_Making = () => {
   return (
     <Container
       component="section"
@@ -21,11 +20,11 @@ function Survey_Type_Page() {
         }}
       >
         <Typography variant="h4" component="span">
-          예비 페이지
+           {"Demo Page of Survey Making Page"}
         </Typography>
       </Button>
     </Container>
   );
 }
 
-export default Survey_Type_Page;
+export default Survey_Making;
