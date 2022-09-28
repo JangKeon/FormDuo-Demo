@@ -1,9 +1,8 @@
 import * as React from 'react';
 import ProductCategories from './modules/views/ProductCategories';
-import Survey_Type_Page from './modules/views/Survey_Type_Page';
 import ProductHero from './modules/views/ProductHero';
 
-function Index() {
+function Home() {
   return (
     <React.Fragment>
       <ProductHero />
@@ -12,4 +11,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Home;

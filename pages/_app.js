@@ -9,11 +9,12 @@ import AppFooter from './modules/views/AppFooter';
 function MyApp({Component, pageProps}) {
   return (
     <ThemeProvider theme={theme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
-        <AppAppBar/>
-        <Component {...pageProps}/>
-        <AppFooter/>
+        <React.Fragment>
+          <AppAppBar/>
+          <Component {...pageProps}/>
+          <AppFooter/>
+        </React.Fragment>
     </ThemeProvider>
   );
 }
